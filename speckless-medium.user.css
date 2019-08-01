@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name         Speckless Medium
+@version      0.1.0
+@description  Decluttered version of Medium
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-medium.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("medium.com") {
+
+    div.m.mc.ab.md.me.mf.mg, /* bottom banner: "Smart stories. New ideas. No ads. $5/month." */
+    div.m.lx.ab.ly.lz.ma.mb, /* bottom banner: "Get one more story in your member preview when you sign up. It’s free." */
+    nav.l.m.n.o.p.c.q.r.s.t.u, /* top navigation */
+    div.da.db.l.dc.dd, /* top margin */
+    div.dt.du.l.dv.dw, /* top margin */
+    div.dl.dm.l.dn.do  /* top margin */ {
+        display: none;
+    }
+
+}
