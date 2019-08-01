@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name         Speckless Wikipedia
+@version      0.1.0
+@description  Decluttered version of Wikipedia
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-wikipedia.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org") {
+
+    #mw-navigation,
+    #mw-page-base {
+        display: none;
+    }
+
+    #content {
+        margin-left: 0;
+    }
+
+}
