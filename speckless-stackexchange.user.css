@@ -1,0 +1,30 @@
+/* ==UserStyle==
+@name         Speckless Stack Exchange
+@version      0.1.0
+@description  Decluttered version of Stack Exchange Websites
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-stackexchange.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document regexp("https://([^.]+\\.)?stackexchange.com/questions/.+"),
+    regexp("https://([^.]+\\.)?stackoverflow.com/questions/.+"),
+    regexp("https://superuser.com/questions/.+"),
+    regexp("https://serverfault.com/questions/.+"),
+    regexp("https://askubuntu.com/questions/.+") {
+
+    #left-sidebar,
+    #js-gdpr-consent-banner,
+    header.top-bar.js-top-bar.top-bar__network._fixed, /* Top navigation banner */
+    div.js-dismissable-hero /* Top banner: "Sign up to join this community" */ {
+        display: none;
+    }
+
+    body.question-page.unified-theme {
+        padding-top: 0;
+    }
+
+}
