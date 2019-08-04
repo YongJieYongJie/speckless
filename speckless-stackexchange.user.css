@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Speckless Stack Exchange
-@version      0.2.0
+@version      0.3.0
 @description  Decluttered version of Stack Exchange Websites
 @namespace    github.com/YongJieYongJie/speckless
 @author       YongJieYongJie
@@ -18,6 +18,7 @@
 
     #left-sidebar,
     #js-gdpr-consent-banner,
+    #newsletter-ad, /* Right widget: "Love this site?" */
     header.top-bar.js-top-bar.top-bar__network._fixed, /* Top navigation banner */
     div.s-sidebarwidget.s-sidebarwidget__yellow.s-anchors.s-anchors__default.mb16, /* Right sidebar: "Blog" and "Featured on Meta" */
     div.s-sidebarwidget.mb16.module, /* Right sidebar: "People Chatting" */
