@@ -19,6 +19,7 @@
     #left-sidebar,
     #js-gdpr-consent-banner,
     #newsletter-ad, /* Right widget: "Love this site?" */
+    #hot-network-questions, /* Bottom right widget: "Hot Network Questions" */
     header.top-bar.js-top-bar.top-bar__network._fixed, /* Top navigation banner */
     div.s-sidebarwidget.s-sidebarwidget__yellow.s-anchors.s-anchors__default.mb16, /* Right sidebar: "Blog" and "Featured on Meta" */
     div.s-sidebarwidget.mb16.module, /* Right sidebar: "People Chatting" */
