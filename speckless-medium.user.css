@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Speckless Medium
-@version      0.3.0
+@version      0.4.0
 @description  Decluttered version of Medium
 @namespace    github.com/YongJieYongJie/speckless
 @author       YongJieYongJie
@@ -18,7 +18,9 @@
     div.m.oa.ab.oe, /* bottom banner: "Get one more story in your member preview when you sign up. It’s free." */
     nav.l.m.n.o.p.c.q.r.s.t.u, /* top navigation */
     div.af.ag.es.md.me.mf.m.n.mg.o.p.mh.mi, /* Overlay: "Extend your stay." */
+    div.af.ag.ez.pr.ps.pt.pu.pv.m.n.pw.o.p.px.py, /* Overlay: "Pardon the interruption." */
     div.da.db.l.dc.dd, /* top margin */
+    div.dc.dd.l.de.df, /* top margin */
     div.dt.du.l.dv.dw, /* top margin */
     div.dl.dm.l.dn.do  /* top margin */ {
         display: none;
