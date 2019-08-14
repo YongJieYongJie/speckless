@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Speckless Medium
-@version      0.5.0
+@version      0.6.0
 @description  Decluttered version of Medium
 @namespace    github.com/YongJieYongJie/speckless
 @author       YongJieYongJie
@@ -19,7 +19,9 @@
     nav.l.m.n.o.p.c.q.r.s.t.u, /* top navigation */
     div.af.ag.es.md.me.mf.m.n.mg.o.p.mh.mi, /* Overlay: "Extend your stay." */
     div.af.ag.ez.pr.ps.pt.pu.pv.m.n.pw.o.p.px.py, /* Overlay: "Pardon the interruption." */
-    div.as.at.ie.pm.pn.po.pp.pq.hj.u.pr.v.w.ps.pt,  /* Overlay: "Pardon the interruption." */
+    div.as.at.ie.pm.pn.po.pp.pq.hj.u.pr.v.w.ps.pt, /* Overlay: "Pardon the interruption." */
+    div.ar.as.dx.oj.ok.ol.om.on.m.n.oo.o.p.op.oq, /* Overlay: "Pardon the interruption." */
+    div.co.aq.l.cp.at, /* top margin */ 
     div.da.db.l.dc.dd, /* top margin */
     div.dc.dd.l.de.df, /* top margin */
     div.dt.du.l.dv.dw, /* top margin */
