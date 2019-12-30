@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name         Speckless Hacker Noon
+@version      0.1.0
+@description  Decluttered version of Hacker Noon
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-hackernoon.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("hackernoon.com") {
+    
+    header#header, /* header */
+    div#top  /* top navigation */ {
+        display: none;
+    }
+
+}
