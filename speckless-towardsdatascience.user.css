@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name         Speckless Towards Data Science
+@version      0.1.0
+@description  Decluttered version of Towards Data Science
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-towardsdatascience.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("towardsdatascience.com") {
+
+    #lo-meter-banner-background-color, /* bottom banner */
+    .branch-journeys-top, /* top banner */
+    #root > div > nav + div /* top margin */ {
+        display: none;
+    }
+    
+}
