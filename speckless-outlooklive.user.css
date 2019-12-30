@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         Speckless outlook.live.com
+@version      0.1.0
+@description  Decluttered version of Microsoft Outlook Live Webmail
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-outlooklive.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("outlook.live.com") {
+
+    div#app > div > div:nth-child(3) > div > div > div:nth-child(4)  /* right navigation */ {
+        display: none;
+    }
+
+}
