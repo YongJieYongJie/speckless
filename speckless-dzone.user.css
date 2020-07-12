@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name         Speckless DZone
+@version      0.1.0
+@description  Decluttered version of DZone
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-dzone.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("dzone.com") {
+
+    .container-fluid.header {
+        display: none;
+    }
+
+    .container-fluid.body {
+        padding-top: 0;
+    }
+
+}
