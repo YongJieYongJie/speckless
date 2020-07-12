@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name         Speckless Baeldung
+@version      0.1.0
+@description  Decluttered version of Baeldung.com
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-baeldung.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("baeldung.com") {
+
+    div.before-post-widgets, /* ads after post title */
+    div#sidebar1, /* ads on sidebar */
+    nav.header--menu { /* header nav */
+        display: none;
+    }
+    div#main {
+        width: 100% !important;
+    }
+    div#content {
+        padding-top: 0;
+    }
+
+}
