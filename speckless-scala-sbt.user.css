@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         Speckless scala-sbt.org
+@version      0.1.0
+@description  Decluttered version of scala-sbt.org
+@namespace    github.com/YongJieYongJie/speckless
+@author       YongJieYongJie
+@homepageURL  https://github.com/YongJieYongJie/speckless
+@supportURL   https://github.com/YongJieYongJie/speckless/issues
+@updateURL    https://github.com/YongJieYongJie/speckless/raw/master/speckless-scala-sbt.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("scala-sbt.org") {
+
+    .footer {
+        display: none !important;
+    }
+
+}
