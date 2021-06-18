@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Speckless Stack Exchange
-@version      0.4.0
+@version      0.5.0
 @description  Decluttered version of Stack Exchange Websites
 @namespace    github.com/YongJieYongJie/speckless
 @author       YongJieYongJie
@@ -21,10 +21,10 @@
     #announcement-banner,
     #newsletter-ad, /* Right widget: "Love this site?" */
     #hot-network-questions, /* Bottom right widget: "Hot Network Questions" */
-    header.top-bar.js-top-bar.top-bar__network._fixed, /* Top navigation banner */
+    header.top-bar.js-top-bar.top-bar__network, /* Top navigation banner */
     div.s-sidebarwidget.s-sidebarwidget__yellow.s-anchors.s-anchors__default.mb16, /* Right sidebar: "Blog" and "Featured on Meta" */
     div.s-sidebarwidget.mb16.module, /* Right sidebar: "People Chatting" */
-    div.pl8.aside-cta.grid--cell, /* Top right button: "Ask Question"  */
+    #question-header > .aside-cta, /* Top right button: "Ask Question"  */
     div.js-dismissable-hero /* Top banner: "Sign up to join this community" */ {
         display: none;
     }
